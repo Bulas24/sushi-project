@@ -1,0 +1,25 @@
+a:2:{s:4:"data";s:563:"<li>
+    <a href="category/akciya-rolly-0r">Акция!Роллы 0р.</a>
+    </li>
+<li>
+    <a href="category/rolly">Роллы</a>
+    </li>
+<li>
+    <a href="category/picca">Пицца</a>
+    </li>
+<li>
+    <a href="category/sety">Сеты</a>
+    </li>
+<li>
+    <a href="category/goryachie-blyuda">Горячие блюда</a>
+    </li>
+<li>
+    <a href="category/novinki">Новинки</a>
+    </li>
+<li>
+    <a href="category/napitki">Напитки</a>
+    </li>
+<li>
+    <a href="category/dobavki">Добавки</a>
+    </li>
+";s:8:"and_time";i:1569680888;}

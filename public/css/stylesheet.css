@@ -1,0 +1,2074 @@
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('/font/opensans-bold.eot');
+    src: url('/font/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-bold.woff') format('woff'),
+		  url('/font/opensans-bold.woff2') format('woff2'),
+         url('/font/opensans-bold.ttf') format('truetype'),
+         url('/font/opensans-bold.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face { 
+    font-family: 'OpenSansBoldItalic';
+    src: url('/font/opensans-bolditalic.eot');
+    src: url('/font/opensans-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-bolditalic.woff') format('woff'),
+		  url('/font/opensans-bolditalic.woff2') format('woff2'),
+         url('/font/opensans-bolditalic.ttf') format('truetype'),
+         url('/font/opensans-bolditalic.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'OpenSansExtraBold';
+    src: url('/font/opensans-extrabold.eot');
+    src: url('/font/opensans-extrabold.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-extrabold.woff') format('woff'),
+		  url('/font/opensans-extrabold.woff2') format('woff2'),
+         url('/font/opensans-extrabold.ttf') format('truetype'),
+         url('/font/opensans-extrabold.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'OpenSansExtraBoldItalic';
+    src: url('/font/opensans-extrabolditalic.eot');
+    src: url('/font/opensans-extrabolditalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-extrabolditalic.woff') format('woff'),
+		  url('/font/opensans-extrabolditalic.woff2') format('woff2'),
+         url('/font/opensans-extrabolditalic.ttf') format('truetype'),
+         url('/font/opensans-extrabolditalic.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('/font/opensans-italic.eot');
+    src: url('/font/opensans-italic.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-italic.woff') format('woff'),
+		  url('/font/opensans-italic.woff2') format('woff2'),
+         url('/font/opensans-italic.ttf') format('truetype'),
+         url('/font/opensans-italic.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('/font/opensans-light.eot');
+    src: url('/font/opensans-light.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-light.woff') format('woff'),
+		  url('/font/opensans-light.woff2') format('woff2'),
+         url('/font/opensans-light.ttf') format('truetype'),
+         url('/font/opensans-light.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('/font/opensans-lightitalic.eot');
+    src: url('/font/opensans-lightitalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-lightitalic.woff') format('woff'),
+		  url('/font/opensans-lightitalic.woff2') format('woff2'),
+         url('/font/opensans-lightitalic.ttf') format('truetype'),
+         url('/font/opensans-lightitalic.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('/font/opensans-regular.eot');
+    src: url('/font/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-regular.woff') format('woff'),
+		  url('/font/opensans-regular.woff2') format('woff2'),
+         url('/font/opensans-regular.ttf') format('truetype'),
+         url('/font/opensans-regular.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('/font/opensans-semibold.eot');
+    src: url('/font/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('/font/opensans-semibold.woff') format('woff'),
+		  url('/font/opensans-semibold.woff2') format('woff2'),
+         url('/font/opensans-semibold.ttf') format('truetype'),
+         url('/font/opensans-semibold.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'RobotoSlabBold';
+    src: url('/font/robotoslab-bold.eot');
+    src: url('/font/robotoslab-bold.eot?#iefix') format('embedded-opentype'),
+         url('/font/robotoslab-bold.woff') format('woff'),
+		  url('/font/robotoslab-bold.woff2') format('woff2'),
+         url('/font/robotoslab-bold.ttf') format('truetype'),
+         url('/font/robotoslab-bold.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} @font-face {
+    font-family: 'RobotoSlabLight';
+    src: url('/font/robotoslab-light.eot');
+    src: url('/font/robotoslab-light.eot?#iefix') format('embedded-opentype'),
+         url('/font/robotoslab-light.woff') format('woff'),
+		  url('/font/robotoslab-light.woff2') format('woff2'),
+         url('/font/robotoslab-light.ttf') format('truetype'),
+         url('/font/robotoslab-light.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'RobotoSlabRegular';
+    src: url('/font/robotoslab-regular.eot');
+    src: url('/font/robotoslab-regular.eot?#iefix') format('embedded-opentype'),
+         url('/font/robotoslab-regular.woff') format('woff'),
+		  url('/font/robotoslab-regular.woff2') format('woff2'),
+         url('/font/robotoslab-regular.ttf') format('truetype'),
+         url('/font/robotoslab-regular.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoSlabThin';
+    src: url('/font/robotoslab-thin.eot');
+    src: url('/font/robotoslab-thin.eot?#iefix') format('embedded-opentype'),
+         url('/font/robotoslab-thin.woff') format('woff'),
+		  url('/font/robotoslab-thin.woff2') format('woff2'),
+         url('/font/robotoslab-thin.ttf') format('truetype'),
+         url('/font/robotoslab-thin.svg#cuprumffuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: url('/image/fon_sit.jpg');
+    background-size: 100% auto;
+	color:#010101;
+	font-family: 'OpenSansRegular';
+}
+.cat_menu.topnol {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: 10;
+}.desc.activedesc {
+    position: absolute;
+    top: 0;
+    height: auto;padding-bottom: 27px;background: #fff;
+}.top_block.topnol {
+
+    position: fixed;
+    top: 0;
+
+}.radiobtnopt.price > span {
+
+    width: 50%;
+
+}
+.checkout-cart
+ {
+    background-image: url('/image/fon_sit2.jpg');
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+.bloc_btn {
+    width: 300px;
+    height: 83px;
+    position: absolute;
+    z-index: 100;
+    top: 89px;
+}
+.img-responsive {width:100%}
+.super .desc.activedesc {
+    position: absolute;
+    top: 0;
+    height: auto;padding-bottom: 27px;background: none;
+}
+input:checked + .bvt + span + input + .bvt, input:checked + .bvt + span + input + .bvt + input + .bvt {
+display:block !important;
+}
+#nalic + .bvt, #beznalic + .bvt {
+	display:none;
+}
+.super .activedesc .opendes {
+    background: #A81527;
+}
+.dwdesc {height:87px;position: relative;float: left;
+width: 100%;
+font-family: 'OpenSansRegular';
+font-size: 12px;
+height: 78px;} 
+.super .opendes {background: #AA1729;}
+.opendes {
+    position: absolute;
+    bottom: 0;
+    font-size: 28px;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    line-height: 0;
+    cursor: pointer;
+    color: #f05228;z-index: 8;
+}.activedesc {background:#fff;z-index: 8;}
+.wraper {
+    width: 960px;
+    margin: 0 auto;
+	font-size:13px;
+}
+.top_menu {
+    background: #ff9c00;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 14px;font-family: 'RobotoSlabRegular';
+width: 100%;
+z-index: 10000;
+}
+.mod_sity a {color:#010101;}
+.mod_sity {
+    float: left;
+}
+.modiles{display:none;}
+.dw_menu a {color:#fff;}
+.dw_menu {
+    float: right;
+}#nwsl {
+    top: 30vh;
+}
+.dw_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}.dw_menu ul li {
+    float: left;
+    margin-right: 20px;
+}.dw_menu ul li:last-of-type{margin:0;}
+.logo {
+    float: left;
+	margin-top:10px;
+	margin-right:50px;
+}
+.top_block {
+height: 100px;
+width: 100%;
+
+z-index: 19;
+background-color: #ffffff;float: left;
+
+display: table;
+
+
+}
+.phone_top span {
+    font-size: 14px;
+    color: #000000;
+}
+.phone_top {
+    float: left;
+    height: 100px;
+    box-sizing: border-box;
+	padding-top: 14px;
+}
+.n_phone {font-family: 'OpenSansBold'; font-size:44px; color:#dd002c;line-height: 49px;}
+.rabota {
+float: left;
+width: 185px;
+margin-left: 50px;
+font-size: 12px;
+font-family: 'RobotoSlabRegular';
+color: #000;
+padding-top: 10px;
+
+}
+.rabota span {
+    width: 100%;
+    display: table;
+    color: #dd002c;
+    font-size: 18px;font-family: 'RobotoSlabRegular';
+}
+#cart {
+    float: right;
+    width: 150px;
+	margin-top: 25px;
+}
+#cart.btn-group > .btn {
+    font-weight: bold;
+    font-size: 22px;
+    background: url(/image/cart_fon1.png);
+    color: #fefefe;
+    height: 58px;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+}
+#cart img {
+    margin-right: 6px;
+}
+.fon_slider > img {
+    width: 100%;
+
+}
+
+
+.fon_slider .wraper {
+    position: absolute;
+    left: calc(50% - 480px);
+bottom: 0;
+}
+.fon_slider {
+
+width: 100%;
+height: 100%;
+position: relative;
+margin-top: 157px;
+}
+.footer_col1 {
+    float: left;
+    width: 375px;
+}
+.foot_logo {
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: left;
+}.f_rabota {
+    float: left;
+    width: 100%;
+}
+.f_title {
+    float: left;
+    width: 100%;
+    color: #f30042;
+    font-size: 18px;font-family: 'RobotoSlabRegular';
+}
+footer {font-family: 'OpenSansRegular';font-size: 14px;color:#000000;}.footer_col2 {
+    float: left;
+    width: 400px;
+}
+.footer_col3 {
+    float: right;
+    width: 185px;
+}
+.top_menu_cat {
+float: left;
+width: 100%;
+box-sizing: border-box;
+background: #dd002c;
+height: 58px;
+z-index: 10;
+}
+
+.menu_cat {
+padding: 0;
+list-style: none;
+width: 100%;
+margin: 0 auto;
+
+}
+.menu_cat  li {
+    float: left;
+}
+.menu_cat  li a{
+color: #fff;
+font-size: 16px;
+font-family: 'RobotoSlabBold';
+padding: 17px;
+display: table;
+
+}
+.menu_cat_f {
+    list-style: none;
+    padding: 0;
+    margin: 0;font-weight: bold;
+}
+.noactivebtn {
+    display:none !important;}
+}
+ body .btn-primary {
+    color: #fff;
+    background-color: #dd002c !important;
+    border-bottom: 4px solid #a60121;
+}
+body footer a, body footer a:hover {
+    color: #000;
+}
+.menu_cat_f li {
+    float: left;
+    width: 50%;
+}
+.f_menu {
+    width: 100%;
+    display: table;
+}
+.blockff {
+    float: left;
+    width: 100%;
+    background: #fff;
+	padding: 15px;
+}
+.title_h1 {
+    border: 1px solid;
+    min-width: 150px;
+    text-align: center;
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    font-size: 30px;
+    font-family: 'RobotoSlabBold';
+    float: left;
+    padding: 0 9px;
+    margin-left: calc(50% - 100px);
+}
+.h1_ogr {
+    display: table;
+    width: 100%;
+    height: 140px;
+    padding-top: 45px;
+}
+.title_h1.cat_h_217 {
+    margin-left: calc(50% - 130px);
+}
+.image {
+    width: 100%;
+    display: table;position:relative;
+}
+.image .thump {width:100%;}
+.icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}.fot-bnht {
+    float: left;
+    width: 100%;
+}.block_text .price {
+    float: left;
+}
+.foot-tel {font-size:30px;color:#dd002c;font-family: 'OpenSansBold';width:100%;display:table;}
+.nazvnie {height: 53px;
+    float: left;
+    width: 100%;
+    font-size: 18px;
+     font-family: 'RobotoSlabBold';
+	 color:#f05228;
+	 text-align:center;cursor: pointer;
+}.nazvnie:hover {text-decoration:underline;}
+.product-grid .image {cursor: pointer;}
+.cart_add button:hover, .buttom:hover {
+    background: #7ab802;
+    border-color: #629500;
+    text-decoration: none;
+}
+.blockff .qtu_cart:hover, .qtu_cart:hover{ background: #7ab802;
+    border-color: #629500;
+    text-decoration: none;
+}
+
+.knop:hover,  body .btn-primary:hover, body .btn-primary:active, body .btn-primary:focus {background: #f05228;
+border-color: #d4451f;
+}
+.btn-primary.center:hover {background: #f05228;
+border-color: #d4451f;
+}
+.dop_atr {
+    width: 100%;
+    display: table;
+    color: #949494;font-family: 'OpenSansRegular';font-size: 14px;
+}
+.dop_atr div:first-of-type{float: left;z-index: 1;
+position: relative;
+background: #fff;
+}
+.dop_atr div:last-of-type{float: right;
+background: #fff;z-index: 1;
+position: relative;
+}.dot {
+margin-bottom: 4px;
+margin-top: -8px;
+border-bottom: dotted 1px;
+float: left;
+width: 100%;
+z-index: -1;
+position: relative;
+
+
+}
+.atribute {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.rating{
+width:85px;
+height: 25px;float: right;
+}
+.ratBlocks{
+width:86px;
+height: 25px;
+margin-top:-25px;
+display:none;
+}
+.ratZero{
+width:85px;
+background: url('/image/stars.png') repeat-x 0 0;
+height: 25px;
+}.ratStat {
+    float: left;
+    width: 63px;
+}
+.ocenok {
+    position: absolute;
+    text-align: center;
+    font-family: 'OpenSansRegular';
+    font-size: 12px;
+    color: #959595;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 10px;
+	padding-left: 90px;
+    bottom: 0;
+}
+
+.ratDone{
+width:0;
+background: url('/image/stars.png') repeat-x 0 -50px;
+height: 25px;
+margin-top:-25px;
+}
+.ratHover{
+width:0px;
+background: url('/image/stars.png') repeat-x 0 -25px;
+height: 25px;
+margin-top:-25px;
+}
+.reiting {
+    float: left;
+    width: 180px;margin-top: 10px;position: relative;
+}
+.test_ret {
+    font-size: 14px;font-family: 'OpenSansSemibold';
+}
+.test_ret strong{font-family: 'RobotoSlabBold';font-size: 36px;}
+
+
+.desc {
+    float: left;
+    width: 100%;
+    font-family: 'OpenSansRegular';
+    font-size: 12px;
+    height: 78px;
+    overflow: hidden;position: relative;
+
+}
+.blockff > div {width:100%; display:table;margin-bottom: 40px;}
+.blockff > div:last-of-type {margin:0;}
+	.price-new{
+font-family: 'RobotoSlabBold';font-size: 30px;
+	}
+.price-old	{font-family: 'RobotoSlabLight';font-size: 14px;text-decoration: line-through;
+	}
+.price-new .fa-rub {
+    font-size: 28px;
+}
+
+.center_p {
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+.cart_add button, .buttom {
+    background: #f05228;
+    border-style: solid;
+    border-width: 0 0 4px 0px;
+    border-color: #d4451f;
+    font-family: 'OpenSansSemibold';
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 120px;
+    height: 35px;
+    border-radius: 7px;
+    margin-left: calc(50% - 60px);
+}
+
+	
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #e1e1e1;
+  background-image: none;
+}
+.select {
+  position: relative;
+  display: block;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 3px 0 3px .5em;
+color: #000;
+cursor: pointer;
+border-radius: 4px;
+background: url(/image/arow.png) #e1e1e1;
+background-repeat: no-repeat;
+background-position: right center;margin-top: 4px;
+
+
+}
+select::-ms-expand {
+  display: none;
+}
+
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495e;
+  pointer-events: none;
+}.select:hover::after {
+  color: #9AB999;
+}
+.select::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+.blockff .noactive, .noactive {display:none;}
+.knop {
+cursor: pointer;
+background: #dd002c;
+width: 200px !important;
+text-align: center;
+color: #FFF;
+text-transform: uppercase;
+font-size: 13px;
+font-family: 'OpenSansSemibold';
+height: 35px;
+border-width: 0 0 4px 0;
+border-style: solid;
+border-color: #a60021;
+border-radius: 6px;
+box-sizing: border-box;
+padding-top: 6px;
+float: left;
+margin-left: calc(50% - 100px);
+
+}.knopp_wrap {
+    background: #fff;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 35px 50px 15px;
+    position: relative;
+}
+.knopp_wrap > span {
+    height: 1px;
+    width: 100%;
+    display: table;
+    background: #bababa;
+    margin-top: -35px;
+    position: relative;
+}
+.menu_category, #content {padding:0 !important;}
+.menu_category ul {list-style:none;padding:0;margin:0;}
+.menu_category ul li {float:left;margin-right:10px;}
+.menu_category ul li a {
+    font-family: 'OpenSansSemibold';
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    display: table;
+    background: #ff9c00;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: #e27a00;
+}
+.checkout_otstup input.error {
+    border: 1px solid red;
+}
+.errore {
+    color: red;
+}
+.noslidre.nspk {
+    margin-top: 209px;
+}
+.menu_category ul li a:hover, .menu_category ul li a.act {background:#7ab802; border-color: #629500;text-decoration:none;}
+.menu_category ul li a:active {background:#dd002c; border-color: #a60021;text-decoration:none;border-width: 4px 0 0 0;}
+a:focus{
+outline: none;
+}
+h2, h1 {font-family: 'RobotoSlabBold'; font-size:60px;margin-top:35px; margin-bottom:35px;float: left;
+
+width: 100%;}
+.filter label {
+    background: url(/image/ncheck.png);
+    width: 22px;
+    height: 22px;background-position: 0 -23px;
+background-repeat: no-repeat;float: left;
+margin-right: 5px;
+
+
+}
+.filter label:focus, .filter label:active, .filter input:checked + label{
+    background: url(/image/check.png);
+    width: 22px;
+    height: 22px;background-position: 0 0px;
+}
+.filter input {display:none;}
+.filter > div {
+ float: left;
+font-family: 'OpenSansSemibold';
+font-size: 11px;
+line-height: 23px;
+margin-right: 10px;
+
+}
+h3 { font-family: 'RobotoSlabBold'; font-size:30px;margin-top:15px; margin-bottom:25px;text-align:center;}
+.filter span {
+    float: left;font-family: 'OpenSansSemibold';
+font-size: 16px;margin-right: 10px;
+}
+.filter {
+    width: 555px;
+    margin-bottom: 25px;
+    display: table-row;
+    margin-left: calc(50% - 275px);
+    float: left;
+}
+.super {
+background: linear-gradient(to top, #a10020 , #dd002c);padding-bottom: 15px;
+}
+.super .nazvnie, .super .desc, .super .price {color:#fff;}
+.title_banner {
+    font-family: 'RobotoSlabBold';
+    color: #fff;
+    font-size: 39px;
+    position: absolute;
+    top: 0;
+    right: 10px;width: 72px;
+}
+.title_banner span {font-family: 'OpenSansBold';font-size: 9px;}
+.title_banner p {
+    float: right;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}.title_banner > span {
+    font-family: 'OpenSansBold';
+    font-size: 9px;
+    float: right; width: 100%;
+}
+.title_banner > span > span {font-family: 'OpenSansBold';
+font-size: 9px;
+float: left;
+margin-left: calc(50% - 28px);
+width: 56px;
+display: table;
+text-align: center;
+background: #ff9c00;
+color: #000;
+text-transform: uppercase;}
+
+.dop_block {
+position: fixed;
+width: 900px;
+left: calc(50% - 450px);
+z-index: 10000;
+background: #fff;
+box-shadow: 1px 0px 9px grey;
+top: 100px;
+}
+.dop_img {
+width: 550px;
+height: 490px;
+position: relative;
+float: left;padding: 0;
+}
+.text_banner {
+    font-size: 24px;
+    color: #fff;
+    width: 45%;
+    position: absolute;
+    top: 70px;
+    right: 15px; font-family: 'OpenSansRegular';
+}
+.dop_block .title_banner span > span {font-size: 30px;
+width: 180px;
+margin-left: calc(50% - 90px);
+margin-top: -26px;}
+.dop_block .title_banner {font-size: 130px;
+width: 215px;
+left: 15px;
+top: 3px;}
+.dop_img img {position: absolute;
+bottom: 45px;
+left: 4%;
+max-width: 100%;
+}
+
+.dop_img.super img {
+
+    position: absolute;
+    bottom: 45px;
+    left: 23%;width: 45%;
+}
+
+.repost {
+    color: #000;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;font-family: 'OpenSansRegular';font-size: 14px;
+}
+.super .repost {
+    color: #fff;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;font-family: 'OpenSansRegular';font-size: 14px;
+}
+.dop_block .super .repost .ya-share2__item_service_vkontakte .ya-share2__icon {    background: url('/image/social.png');
+    height: 32px;
+    width: 31px;
+    background-position: -10px -3px;
+}
+.dop_block .repost .ya-share2__item_service_vkontakte .ya-share2__icon {   background: url('/image/social_g.png');
+
+height: 30px;
+width: 30px;
+background-position: 0px 0px;
+}
+.dop_block .repost  .ya-share2__item_service_vkontakte .ya-share2__badge {
+   background: none;
+}
+.dop_block .super .repost  .ya-share2__item_service_facebook .ya-share2__icon {
+	background: url('/image/social.png');
+    height: 32px;
+    width: 31px;
+    background-position: 30px -3px;
+}
+.dop_block .repost  .ya-share2__item_service_facebook .ya-share2__icon {
+	background: url('/image/social_g.png');
+    height: 30px;
+    width: 30px;
+    background-position: 30px 0;
+}
+.dop_block .repost  .ya-share2__item_service_facebook .ya-share2__badge {
+   background: none;
+}
+.dop_block .repost  .ya-share2__container_size_m .ya-share2__item {margin-right:20px;}
+.ya-share2 {
+    margin-top: 15px;
+}
+
+.title_i {
+    font-size: 30px;
+    color: #dd002c;
+    font-family: 'RobotoSlabBold';
+}.price > span {
+    float: left;
+    width: 100%;
+}.block_text .price-new {
+    font-family: 'RobotoSlabBold';
+    font-size: 36px;
+}.block_text .price-old {
+    font-family: 'RobotoSlabLight';
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.block_text .desc {
+    float: left;
+    width: 100%;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+	height:auto;
+}
+.block_text .cart_add {
+width: 120;
+display: table;
+margin-top: 10px;
+float: right;
+}
+.input.w25 {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}.input.w25:last-of-type {
+    margin: 0;
+}
+#cart .dropdown-menu {
+    width: 360px;
+    box-sizing: border-box;
+    padding: 10px;
+
+    height: 440px;
+
+}
+.noslidre {
+float: left;
+width: 100%;
+margin-bottom: 30px;
+
+}
+
+
+#sity_block {
+position: absolute;
+z-index: 1000;
+background: #fff;
+padding: 16px;
+width: 360px;
+top: 30vh;
+left: calc(50% - 180px);
+
+}.fonbox {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    opacity: 0.7;z-index:100;
+}#sity_block span {
+    float: left;
+    width: 50%;
+}#sity_block .close {
+    position: absolute;
+    opacity: 1;
+    top: 10px;
+    right: 10px;
+}
+#cart .dropdown-menu {
+width: 360px;z-index: 10000;
+box-sizing: border-box;
+padding: 10px;
+}
+.scrol{
+overflow-y: scroll;
+height:200px
+
+}.table > tbody > tr > td:nth-child(3) span {
+    padding: 0;
+    width: 30px;
+    display: table; float:left;
+}.disply_0 {
+    display: none;
+}.buttom.cartser {
+    width: 120px;
+    display: table;
+    text-align: center;
+    padding-top: 8px;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none !important;
+}body a {
+	color:#f05228;
+}
+body a:hover {
+	color:#d4451f;
+}.menu_cat li a:hover {
+	color:#fff;
+	
+}
+.blockff .cart_img {
+    float: left;
+    width: 17.5%;
+	margin-bottom:0;
+}.blockff .cart_img img {
+ border:0 none;
+ width:100%;
+}.blockff .cart_inf {
+    float: left;
+    width: 35%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}.blockff .price.cart {
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+    padding-left: 15px;text-align: center;
+}.blockff .cart_upr {
+    float: left;
+    width: 8%;
+    text-align: center;
+}.blockff .pr_total {
+float: left;
+width: 10%;
+font-family: 'RobotoSlabBold';
+font-size: 30px;
+text-align: center;
+
+}.blockff .pr_total .fa-rub {
+    font-size: 27px;
+}
+
+
+footer a {
+    font-size: 14px;
+}.pr_total span {
+    font-size: 20px;
+}
+
+.cart_block {margin-bottom:20px;}
+.otion_cart { font-family: 'OpenSansBold';font-size: 18px;}
+.cart_desc {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}.cart_inf .option {
+    float: left;
+    margin-top: 10px;
+}
+.blockff .qtu_cart, .qtu_cart {
+width: 85px;
+text-align: center;
+background: #f05328;
+border-radius: 6px;
+border-bottom: 4px solid #d3451f;
+margin: 0 auto;
+display: table;
+
+}.qtu_cart .form-control {
+    width: 44%;
+    float: left;
+    padding: 0;
+    text-align: center;
+	border:0 none;
+}.blockff .qtu_cart span, .qtu_cart span {float: left;
+color: #fff;
+font-size: 20px;
+width: 28%;
+box-sizing: border-box;
+cursor: pointer;
+text-align: center;
+padding-top: 4px;}
+.blockff .pr_total > .pr_total {
+    width: 100%;
+}
+.img_dop img {
+    width: 100%;
+}
+.dop_cart > div {
+    width: 100%;
+    background: #fff;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    display: table;
+}
+.dop_cat_bl {
+    display: table;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.dop_name {
+    font-size: 14px;
+    text-align: center;font-family: 'OpenSansBold';min-height: 41px;
+}#openerder {
+    width: 172px;cursor: pointer;
+    margin-left: calc(50% - 86px);
+}
+#form_order_q {
+position: fixed;
+z-index: 10000;
+top: 100px;
+padding: 40px 25px;
+background: #fff;
+width: 310px;
+left: calc(50% - 155px);
+border: 1px solid silver;
+}
+#form_order_q .close {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    opacity: 1;
+}
+.dop_price {
+font-family: 'RobotoSlabBold';
+font-size:20px;
+text-align:center;
+}
+.dop_cart .qtu_cart {
+    margin-left: calc(50% - 42px);
+}
+.checkout_otstup {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}.checkout_otstup .control-group {
+    padding-right: 100px;margin-bottom: 10px;
+}
+.checkout_otstup input, #form_order_q input {
+    border: 0 none;
+    background: #e1e1e1;
+    color: #000;
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    text-indent: 5px;
+       font-family: 'OpenSansRegular';
+    font-size: 14px;
+}
+
+input::-webkit-input-placeholder {color:#000;}
+input::-moz-placeholder          {color:#000;}
+input:-moz-placeholder           {color:#000;}
+input:-ms-input-placeholder      {color:#000;}
+
+
+.control-group.w50 {
+    float: left;
+    width: 38%;
+    padding: 0;
+    margin-right: 3%;
+}
+.checkout_otstup .phons input {
+    float: right;
+    width: 100%;
+}.tpls {
+    font-size: 18px;font-family: 'OpenSansRegular';
+}.input {
+    display: table;
+    width: 100%;
+}.com2 {
+   background: url('/image/checet_cart.png');
+    background-repeat: repeat;
+background-repeat: no-repeat;
+background-position: left -23px;
+padding-left: 26px;
+padding-top: 1px;font-family: 'OpenSansRegular';
+}input:checked + label {
+    background-position: left 0;
+}
+.bvt {  background: url('/image/radio_cart.png');
+background-repeat: no-repeat;
+background-position: left -19px;
+padding-left: 26px;
+padding-top: 0px;font-family: 'OpenSansRegular';width: 100%;}
+input:checked + .bvt {
+    background-position: left 2px;
+}.blockff .oplt_bl {
+    width: 70%;float:left;
+}
+.blockff .oplt_bl .bvt b {font-family: 'OpenSansSemibold'; font-size:18px;width:100%;font-weight: normal;display: table;}
+.oplt_bl .bvt {
+    line-height: 17px;
+}
+.oplt_bl span {
+    font-size: 12px;font-family: 'OpenSansRegular';
+}
+.old_totalcart0 {display:none !important;}
+.lb_btn label {
+font-family: 'OpenSansSemibold';
+padding: 6px 10px;
+margin-bottom: 10px;
+display: table;
+background: #ff9c00;
+color: #fff;
+font-size: 13px;
+border-radius: 6px;
+border-style: solid;
+border-width: 0 0 4px 0;
+border-color: #e27a00;
+float: left;
+margin-right: 15px;
+
+}
+.lb_btn input:checked + label
+{background:#dd002c; border-color: #a60021;text-decoration:none;border-width: 4px 0 0 0;padding-top: 3px;
+padding-bottom: 9px;
+}
+.lb_btn {
+    width: 100%;
+    display: table;
+}
+body .blockff .block_add_order {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+.itog_dost {
+	font-family: 'OpenSansSemibold';
+	font-size:18px;
+}
+.t_itg {
+	font-family: 'OpenSansSemibold';font-size:18px;
+}
+.itog_pr {font-family: 'RobotoSlabBold'; font-size:36px;}
+.alert-success {
+  position: fixed;
+top: 45vh;
+z-index: 1000;
+display: table;
+width: 450px;
+text-align: center;
+font-size: 16px;
+box-shadow: 2px 1px 7px grey;
+left: calc(50% - 225px);background: #fff;
+}
+
+.title_otzyv {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #dd002c;font-family: 'RobotoSlabBold';
+}
+.otz_pr {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;font-family: 'OpenSansRegular';
+}
+.btn.btn-primary.center {
+    width: 130px;
+    margin-left: calc(50% - 65px);
+    margin-top: 20px;
+}
+.testym_b {float:left; width:100%;margin-top: 45px;margin-bottom: 45px;padding: 20px 0;
+background: #fff;}
+.testim_img {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.desc_testim {
+float: left;
+width: 100%;
+padding: 17px 10px 0 25px;
+background: url('/image/style_tst.png');
+    background-repeat: repeat;
+
+background-repeat: no-repeat;
+background-position: left top;
+font-size: 12px;font-family: 'OpenSansRegular';
+}
+.review-author {
+    float: left;
+    width: 100%;
+    text-align: right;    font-size: 14px;font-family: 'OpenSansLightItalic';
+}
+footer {
+    margin-top: 25px;
+    display: table;
+    float: left;
+    width: 100%;background-image: url(/image/footerfon.jpg);
+padding-top: 45px;background-size: 100%;
+}
+
+.btn-red{background: #f05228;
+border-style: solid;
+border-width: 0 0 4px 0px;
+border-color: #d4451f;
+font-family: 'OpenSansSemibold';
+font-size: 13px;
+text-transform: uppercase;
+color: #fff;
+width: 120px;
+height: 35px;display: table;
+text-align: center;
+padding-top: 5px;margin-top: 10px;
+border-radius: 7px;
+}
+.ogr h4 a {
+    color: #7ab802;font-family: 'RobotoSlabBold';
+}
+.btn-red:hover, .buttom:hover {
+    background: #7ab802;
+    border-color: #629500;
+    text-decoration: none;
+}
+.nw_img {
+    float: left;
+    width: 100%;
+    margin-right: 15px;
+}
+.nw_img img {
+    width: 100%;
+}
+.nw_date {
+    float: right;
+    margin-top: 30px;
+}
+body .blockff > .text-center {
+    float: left;
+    width: auto;
+    margin-right: 15px;
+}
+.ratingBar {
+    float: left;
+    width: 100%;
+}
+
+#po_dost {
+    padding: 15px;
+    background: #fff;
+    width: 450px;
+    margin-left: calc(50% - 225px);
+    position: relative;
+}
+.modile {display:none;}
+@media (max-width: 768px) {
+.title_h1.cat_h_231424 {
+    margin-left: calc(40% - 75px);
+}
+
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+	.cat_menu.topnol{
+        top: 90px;
+    }
+    .fon_slider {
+    padding-top: 0!important;
+    margin-top: 130px !important;
+}
+	.logo {
+    float: left;
+    margin-top: 14px;
+    margin-right: 20px;
+    width: 22%;
+    margin-left: 20px;
+}.call.modiles {
+    width: 10%;
+    position: absolute;
+    left: calc(50% - 7%);
+    top: 57px;
+}
+.topnol .call.modiles {top: 10px;}
+.call.modiles img {
+    width: 100%;
+}.product-grid.col-xs-12 {
+
+    width: 50%;
+
+}
+	
+}
+@media screen and (max-width: 1199px) {
+.col-lg-2.col-xs-12.dop_cart {
+    width: 33%;
+}
+}
+@media screen and (max-width: 769px) {
+	.modile{display: table;
+background: url(/image/644431_settings_512x512.png);
+    background-size: auto auto;
+width: 30px;
+height: 30px;
+background-size: 100%;
+cursor: pointer;
+float: right;
+margin-right: 15px;
+margin-top: -4px;}
+.modiles{display: table;}
+.mob_noact{display:none;}
+	#sity_block {
+    width: 90%;
+    left: 5%;top: 10px;
+}
+	.oplt_bl.tl_dost > div {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
+	.fon_slider .wraper{left:0;}
+	.nw_img {
+    float: left;
+    width: auto;
+	}
+	#btn_order.act{
+		    background: #7ab802;
+    border-color: #629500;
+    text-decoration: none;
+	}
+.top_menu {	box-sizing: border-box;
+padding-left: 5px;}
+
+.wraper {width:100%;display: table;}
+.logo {
+    float: left;
+    margin-top: 7px;
+	margin-bottom: 7px;
+    margin-right: 13px;
+    width: 22%;
+}
+.phone_top {
+    float: left;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 7px;
+}
+.phone_top span {
+    font-size: 11px;
+}
+.n_phone {
+    font-family: 'OpenSansBold';
+    font-size: 25px;
+    color: #dd002c;
+    line-height: 32px;
+}.dw_menu {
+width: 264px;
+position: absolute;
+top: 50px;
+background: #fff;
+box-sizing: border-box;
+padding: 10px;
+right: 15px;
+z-index: 10001;
+}
+.dw_menu ul li{float:left;width:100%;}
+.dw_menu a {
+    color: #333;
+}
+.rabota {
+    display: none;
+}.dop_img {
+width: 100%;
+height: 33vh;
+text-align: center;
+}.block_text {
+    width: 100%;
+    padding: 0;
+	padding:10px;
+	box-sizing: border-box;height: 67vh;
+}.dop_img img, .dop_img.super img {
+      position: relative;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}.block_text .price-new {
+    font-family: 'RobotoSlabBold';
+font-size: 29px;}
+.title_i {
+    font-size: 22px;
+    color: #dd002c;
+    font-family: 'RobotoSlabBold';
+    text-align: center;
+}
+.block_text .price-new {
+    float: left;
+    width: auto;
+}.block_text .price-old {
+    float: left;
+    width: auto;
+    margin-top: 9px;
+    margin-left: 10px;
+}.block_text .cart_add {
+    width: auto;
+    display: table;
+    margin-top: 4px;
+
+}
+.dop_img.super {}
+.dop_img.super img {
+
+    float: right;
+}.text_banner {
+    font-size: 17px;
+    color: #fff;
+    width: 49%;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-family: 'OpenSansRegular';
+    line-height: 13px;
+}.dop_block .title_banner span > span {
+    font-size: 20px;
+    width: 120px;
+    margin-left: calc(50% - 60px);
+    margin-top: -16px;
+}
+.repost{display:none}
+.dop_block {
+    width: 90%;
+    left: 5%;
+position: fixed;overflow-y: scroll;
+top: 0;
+    z-index: 10000;
+    box-sizing: border-box;
+    
+}
+#cart {
+    float: right;
+    width: 162px;
+    margin-top: 10px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.top_block {
+    height: auto;
+    background-size: auto;
+    background-position: -50%;padding-bottom: 0;
+}
+.cat_menu {
+  
+}body{
+    background: #fff;
+}
+
+.menu_cat {
+    width: auto;
+    padding-top: 4px;
+}
+.top_menu_cat {
+    height: auto;
+}
+.menu_cat li a {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'RobotoSlabBold';
+    padding: 6px;
+    display: table;
+}
+
+
+footer {
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    color: #000000;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 10px;margin-top:10px;
+}
+.foot_logo, .owl-carousel {
+    display: none;
+}
+.footer_col2, .footer_col1 {
+    width: 100%;
+}
+.title_h1 {
+    font-size: 21px;margin-left: calc(50% - 75px);
+}
+.blockff {
+    float: none;
+    background: #fff;
+    box-sizing: border-box;
+    width: 96%;
+    margin: 0 auto;
+    display: table;
+	padding: 10px;
+}
+.row {
+    width: 100%;
+    margin: 0;
+}
+#cart .dropdown-menu {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+h1 {
+    font-family: 'RobotoSlabBold';
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;margin: 0 auto;
+padding: 0 15px;
+}
+.cart_desc {
+    display: none;
+}
+.blockff .cart_inf {
+    float: left;
+    width: 35%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.otion_cart {
+    font-family: 'OpenSansBold';
+    font-size: 14px;
+}
+.blockff .price.cart {
+    display: table;
+    clear: left;
+    padding: 0;
+    width: 50%;
+}
+.col-lg-2.col-xs-12.dop_cart {
+    width: 50%;
+}
+.dop_cart > div {
+    width: 100%;
+    background: #fff;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    display: table;
+    height: 253px;
+    margin-bottom: 10px;
+}
+.dop_cat_bl {margin:0;}
+
+.dop_name {
+    font-size: 10px;
+}
+.cart_block {
+margin-bottom: 10px;
+padding: 15px;
+}
+.checkout_otstup {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.checkout_otstup .control-group {
+    padding-right: 0;
+    margin-bottom: 10px;
+}
+.blockff .oplt_bl {
+    width: 100%;
+    float: left;
+}
+.blockff .oplt_bl .bvt b {
+    font-family: 'OpenSansSemibold';
+    font-size: 15px;
+    width: 100%;
+    font-weight: normal;
+
+}
+body .blockff .block_add_order {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+.blockff .pr_total {
+    float: left;
+    width: 50%;
+    font-family: 'RobotoSlabBold';
+    font-size: 30px;
+}
+.phone_top {display:none !important;}
+.owl-controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.fon_slider {
+    padding-top: 184px;
+}.top_menu_cat{overflow-y: scroll;
+height: 39px;}.menu_cat {
+    width: 700px;
+}
+}
+@media screen and (max-width: 540px) {
+.cat_menu.topnol{top:75px;}
+#slideshow0, .fon_slider, {display:none !important;}
+
+	.blockff .cart_img {
+    float: left;
+    width: 12.5%;
+    margin-bottom: 0;
+    position: absolute;
+}.blockff .cart_inf {
+    float: left;
+    width: 35%;
+    box-sizing: border-box;
+    padding-left: 12.5%;
+}
+	.noslidre {
+    float: left;
+    width: 100%;
+    margin-top: 0;}.filter, .categ .product-grid > .desc, .nomabail{display:none;}
+	.top_menu_cat{overflow-y: scroll;
+height: 39px;}.menu_cat {
+    width: 700px;
+    padding-top: 4px;
+}
+
+.container {
+
+    z-index: 0;
+    position: relative;
+    float: left;
+
+}
+
+.fon_slider {
+    padding-top: 1px;
+	margin-top: 167px;
+}
+
+.product-grid {
+    padding: 0 0 31px 0;margin-bottom: 10px;
+}
+.ogr.blockff.categ {
+    padding: 0;
+}.categ .image {
+    float: left;
+    width: 35%;
+}.nazvnie{height:auto;}
+.blockff .cart_inf {
+    width: 100%;
+}
+.cart_block > div {margin:0;}
+.product-grid .cart_add button{ margin:0;}
+.product-grid .price > span {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+ .nazvnie, .categ .product-grid > .option, .categ .product-grid > .price,  .categ .product-grid > .cart_add {
+    width: 65%;
+	box-sizing:border-box;text-align:left;
+	padding-left:5px;
+	}.categ .product-grid > .option, .categ .product-grid > .price,  .categ .product-grid > .cart_add {float:right;}
+	.price-new {
+    font-family: 'RobotoSlabBold';
+    font-size: 20px;
+	}
+
+.otion_cart {
+
+    font-family: 'OpenSansBold';
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+	.price-new .fa-rub, .blockff .pr_total, .blockff .pr_total .fa-rub {
+    font-size: 20px;
+}
+.blockff .cart_inf + div, .blockff .cart_inf + div + div, .blockff .cart_inf + div +  div + div {
+	width:33% !important;
+}
+.call.modiles {
+background: none;
+width: 58px;
+position: absolute;
+left: calc(50% - 35px);
+top: 58px;
+}
+.topnol .call.modiles {top: 10px;}
+.call img {
+    width: 100%;
+}
+}
+@media screen and (max-width: 480px) {
+#slideshow0, .fon_slider, .phone_top {display:none !important;}
+.fon_slider {padding-top: 1px;}	
+.menu_category + h3 {display:none;}
+.dwdesc {
+    width: 65%;float:right;
+}#po_dost{width:100%;margin: 0;}
+.dwdesc{display:none;}
+
+.alert-success {width:100%;left: 0;}.dwdesc{display:none;}
+.call.modiles {
+	background: none;
+	width: 58px;
+	position: absolute;
+	left: calc(50% - 24px);
+top: 60px;
+}
+.logo {
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 13px;
+    width: 33%;
+}
+#cart {
+    float: right;
+    width: 145px;
+    margin-top: 10px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+}
+
+
+@media screen and (max-width: 390px) {
+.alert-success {width:100%;left: 0;}.dwdesc{display:none;}
+.fon_slider {padding-top: 1px;}	
+
+.call.modiles {
+	background: none;
+	width: 58px;
+	position: absolute;
+	left: calc(50% - 24px);
+top: 61px;
+}
+
+.logo {
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 13px;
+    width: 37%;
+}
+#cart {
+    float: right;
+    width: 135px;
+    margin-top: 11px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+@media screen and (max-width: 320px) {
+	.call.modiles {
+background: none;
+width: 58px;
+position: absolute;
+left: calc(50% - 33px);
+top: 55px;
+}
+#cart {
+    float: right;
+    width: 120px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	}
+}
+
+
+
+
+<div class="noactive"><div class="product-layout product-grid col-lg-3 col-md-3 col-sm-5 col-xs-12 ">
+
+                                                                                                    <div class="element element-jbpriceadvance first last">
+                                                                                                                                                          <div class="jbprice-sku">
+
+                                                                                                                                                                                  <span class="sku" style="display: none;">932231853</span>
+
+
+                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                        </div>
+
+
+                                                                                                                                                                                                                                          <div class="image" id="imgdp_231424_240160731">
+                                                                                                                                                                                                                                                                                        <img class="thump" src="image/cache/catalog/2018opt/rolly/alyaska-550x411-250x188.jpg" alt="">
+                                                                                                                                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                                                                                                                                       <div class="nazvnie" id="dop_inf231424_240160731">
+                                                                                                                                                                                                                                                                                                                                                                                                                                        Аляска за 0 рублей</div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            <script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            $("#dop_inf231424_240160731").click(function() {
+    $(".active_close").removeClass("active_close").addClass("noactive");
+    $("#dop_block231424_240160731").removeClass("noactive").addClass("active_close");
+
+
+    return false;
+});
+$("#imgdp_231424_240160731").click(function() {
+    $(".active_close").removeClass("active_close").addClass("noactive");
+    $("#dop_block231424_240160731").removeClass("noactive").addClass("active_close");
+
+
+    return false;
+});
+</script>
+
+
+
+
+
+  <div class="desc" id="desc231424_240160731">
+                                             <b>&nbsp;8 кусочков.</b> Ролл со сливочным сыром, лососем и авокадо. Украшен зернами кунжута</div>
+
+                                                                                                                                           <div id="option240160731" class="option">
+                                                                                                                                                                                   </div>
+                                                                                                                                                                                     <div class="price ">
+
+                                                                                                                                                                                                        <span class="price-new center_p" id="formated_price240160731" price240160731="0.0000">
+                                                                                                                                                                                                                                                                                             <span>0</span> <i class="fa fa-rub"></i></span>
+
+                                                                                                                                                                                                                                                                                                                                       <div class="radiooption_240160731" style="float: right;width: 50%;">
+                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                              <script type="text/javascript"><!--
+    function recalculateprice240160731(){
+    var price240160731 = Number($('#formated_price240160731').attr('price240160731'));
+
+    var options_price240160731 = 0;
+
+$('#option240160731 option:selected').each(function() {
+    options_price240160731 = options_price240160731 + Number($(this).attr('price240160731'));
+});
+
+    var new_price240160731 = price240160731 + options_price240160731;
+
+$('#formated_price240160731 > span').html(new_price240160731);
+
+
+}
+recalculateprice240160731();
+//--></script>
+       <div class="cart_add">
+                            <button type="button" onclick="cart.add('240160731', '1');"> <span class="hidden-xs hidden-sm">В корзину</span></button>
+                                                                                                                                             </div>
+
+                                                                                                                                               </div>
+                                                                                                                                                 <div class="dop_block noactive " id="dop_block231424_240160731">
+                                                                                                                                                                                                                <div class="dop_img ">
+                                                                                                                                                                                                                                     <img class="big_cls" src="image/cache/catalog/2018opt/rolly/alyaska-550x411-550x411.jpg" alt="">
+                                                                                                                                                                                                                                                                                                                                    <div class="repost">
+                                                                                                                                                                                                                                                                                                                                                       <span>Поделиться в соцсетях</span>
+
+                                                                                                                                                                                                                                                                                                                                                                                    <div class="ya-share2 ya-share2_inited" data-services="vkontakte,facebook"><div class="ya-share2__container ya-share2__container_size_m"><ul class="ya-share2__list ya-share2__list_direction_horizontal"><li class="ya-share2__item ya-share2__item_service_vkontakte"><a class="ya-share2__link" href="https://vk.com/share.php?url=https%3A%2F%2Fxn--80aqcc1bjd0be.xn--p1ai%2Findex.php%3Froute%3Dcommon%2Fhome&amp;title=%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%81%D1%83%D1%88%D0%B8%2C%20%D1%80%D0%BE%D0%BB%D0%BB%D0%BE%D0%B2%2C%20%D0%BF%D0%B8%D1%86%D1%86%D1%8B%2C%20WOK%20%D0%B0%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B4%D0%B5%D1%88%D0%B5%D0%B2%D0%BE%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE%20-%20%D0%9A%D1%83%D1%88%D0%B0%D0%B9%D0%A1%D1%83%D1%88%D0%B8.%D0%A0%D0%A4&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="ВКонтакте"><span class="ya-share2__badge"><span class="ya-share2__icon"></span><span class="ya-share2__counter"></span></span><span class="ya-share2__title">ВКонтакте</span></a></li><li class="ya-share2__item ya-share2__item_service_facebook"><a class="ya-share2__link" href="https://www.facebook.com/sharer.php?src=sp&amp;u=https%3A%2F%2Fxn--80aqcc1bjd0be.xn--p1ai%2Findex.php%3Froute%3Dcommon%2Fhome&amp;title=%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%81%D1%83%D1%88%D0%B8%2C%20%D1%80%D0%BE%D0%BB%D0%BB%D0%BE%D0%B2%2C%20%D0%BF%D0%B8%D1%86%D1%86%D1%8B%2C%20WOK%20%D0%B0%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B4%D0%B5%D1%88%D0%B5%D0%B2%D0%BE%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE%20-%20%D0%9A%D1%83%D1%88%D0%B0%D0%B9%D0%A1%D1%83%D1%88%D0%B8.%D0%A0%D0%A4&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="Facebook"><span class="ya-share2__badge"><span class="ya-share2__icon"></span><span class="ya-share2__counter"></span></span><span class="ya-share2__title">Facebook</span></a></li></ul></div></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <div class="block_text">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <div class="close"><img src="/image/close.png"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div class="title_i">Аляска за 0 рублей</div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <div class="price">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <span class="price-new center_p" id="formated_prices240160731" prices240160731="0.0000">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span>0</span> <i class="fa fa-rub"></i></span>
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div><div class="cart_add">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <button type="button" onclick="cart.add('240160731', '1');"> <span class="hidden-xs hidden-sm">В корзину</span></button>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="desc">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <b>&nbsp;8 кусочков.</b> Ролл со сливочным сыром, лососем и авокадо. Украшен зернами кунжута</div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <div class="radiooptions_240160731" style="float: right;width: 100%;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div id="optionis240160731" class="option">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <script type="text/javascript"><!--
+function recalculateprices240160731(){
+    var prices240160731 = Number($('#formated_prices240160731').attr('prices240160731'));
+
+    var options_prices240160731 = 0;
+
+$('#optionis240160731 option:selected').each(function() {
+    options_prices240160731 = options_prices240160731 + Number($(this).attr('prices240160731'));
+});
+
+var new_prices240160731 = prices240160731 + options_prices240160731;
+
+$('#formated_prices240160731 > span').html(new_prices240160731);
+
+
+}
+recalculateprices240160731();
+//--></script>
+       </div>
+         <div class="atribute">
+
+                              <div class="dop_atr dop_atrweight240160731"><div>Вес</div><div class="tut">0г</div><hr class="dot"></div><div class="dop_atr">
+                                                                                                                                                           <div>Вес порции, г</div>
+                                                                                                                                                                               <div>200 г</div>
+                                                                                                                                                                                           <hr class="dot">
+                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                            <div class="dop_atr">
+                                                                                                                                                                                                                                <div>Белки, г</div>
+                                                                                                                                                                                                                                               <div>8,4</div>
+                                                                                                                                                                                                                                                         <hr class="dot">
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                          <div class="dop_atr">
+                                                                                                                                                                                                                                                                                              <div>Жиры, г</div>
+                                                                                                                                                                                                                                                                                                            <div>16,6</div>
+                                                                                                                                                                                                                                                                                                                       <hr class="dot">
+                                                                                                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                                                                                                        <div class="dop_atr">
+                                                                                                                                                                                                                                                                                                                                                            <div>Углеводы, г</div>
+                                                                                                                                                                                                                                                                                                                                                                              <div>46,2</div>
+                                                                                                                                                                                                                                                                                                                                                                                         <hr class="dot">
+                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                          <div class="dop_atr">
+                                                                                                                                                                                                                                                                                                                                                                                                                              <div>Калорийность порции, ккал</div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div>368</div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <hr class="dot">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <div class="reiting">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <div class="ratingBar" id="ratingBar231424_240160731">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="rating" id="rating231424_240160731">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <div class="ratZero" id="ratZero231424_240160731"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <div class="ratDone" id="ratDone231424_240160731" style="width: 66.47px;"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <div class="ratHover" id="ratHover231424_240160731"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <div class="ratBlocks" id="ratBlocks231424_240160731"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <div class="ratStat" id="ratStat231424_240160731"><span class="test_ret">Рейтинг: <strong>3.91</strong> </span> <span class="ocenok">Оценок: 11</span></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <script type="text/javascript">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           $(document).ready(function() {
+    var starsAll = 43;//Всего звезд
+var voteAll = 11;//Всего голосов
+var idArticle = 240160731;//id статьи
+var starWidth = 17;//ширина одной звезды
+var rating = (starsAll/voteAll); //Старый рейтинг
+rating = Math.round(rating*100)/100;
+if(isNaN(rating)){
+    rating = 0;
+}
+var ratingResCss = rating*starWidth; //старый рейтинг в пикселях
+                                $("#ratDone231424_240160731").css("width", ratingResCss);
+$("#ratStat231424_240160731").html("<span class='test_ret'>Рейтинг: <strong>"+rating+"</strong> </span> <span class='ocenok'>Оценок: "+voteAll+"</span>");
+
+var coords;
+var stars; //кол-во звезд при наведении
+                                $("#rating231424_240160731").mousemove(function(e){
+    var offset = $("#rating231424_240160731").offset();
+    coords = e.clientX - offset.left; //текушая координата
+stars = Math.ceil(coords/starWidth);
+    starsCss = stars*starWidth;
+    $("#ratHover231424_240160731").css("width", starsCss).attr("title", stars+" из 5");
+});
+$("#rating231424_240160731").mouseout(function(){
+//$("#ratHover231424_240160731").css("width", 0);
+});
+$("#rating231424_240160731").click(function(){
+    starsNew = stars + starsAll; //новое количество звезд
+voteAll += 1;
+    var ratingNew = starsNew/voteAll;
+    ratingNew = Math.round(ratingNew*100)/100;
+    var razn = Math.round((rating - ratingNew)*200);
+    razn = Math.abs(razn);
+
+    var total = Math.round(ratingNew*starWidth);
+$.ajax({
+type: "GET",
+url: "index.php?route=product/category/reiting",
+data: {"id": idArticle, "rating": stars},
+cache: false,
+success: function(response){
+if(response == 1){
+    $("#ratHover231424_240160731").css("display", "none");
+$("#ratDone231424_240160731").animate({width: total},razn);
+$("#ratBlocks231424_240160731").show();
+$("#ratStat231424_240160731").html("<span class='test_ret'>Рейтинг: <strong>"+ratingNew+"</strong></span> <span class='ocenok'>"+voteAll+" Оценок </span>");
+}else{
+     $("#ratStat231424_240160731").text(response);
+ }
+}
+});
+return false;
+});
+});
+</script>
+
+
+
+
+
+
+  </div>
+
+
+    </div>
+      </div>
+
+        </div>
