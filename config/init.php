@@ -8,13 +8,13 @@ define("CORE", ROOT . '/vendor/ishop/core');
 define("LIBS", ROOT . '/vendor/ishop/core/libs');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
-define("LAYOUT", 'watches');
+define("LAYOUT", 'sushi');
 
-// http://ishop2.loc/public/index.php
+// http://sushi.loc/public/index.php
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
-// http://ishop2.loc/public/
+// http://sushi.loc/public/
 $app_path = preg_replace("#[^/]+$#", '', $app_path);
-// http://ishop2.loc
+// http://sushi.loc
 $app_path = str_replace('/public/', '', $app_path);
 
 define("PATH", $app_path);

@@ -2892,3 +2892,15 @@
 [2019-09-25 10:16:27] Текст ошибки: 
         syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\app\controllers\MainController.php | Строка ошибки : 21
 ====================
+[2019-09-30 15:22:30] Текст ошибки: 
+        Не найден шаблон watches | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\base\View.php | Строка ошибки : 50
+====================
+[2019-09-30 15:22:31] Текст ошибки: 
+        Страница не найдена | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 46
+====================
+[2019-09-30 15:32:58] Текст ошибки: 
+        Class 'app\models\Breadcrumbs' not found | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\app\controllers\CategoryController.php | Строка ошибки : 30
+====================
+[2019-09-30 15:33:09] Текст ошибки: 
+        Class 'app\models\Breadcrumbs' not found | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\app\controllers\CategoryController.php | Строка ошибки : 30
+====================
