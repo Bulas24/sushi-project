@@ -3,10 +3,10 @@
     <div  id="top" class="callbacks_container noslidre">
         <ul class="rslides" id="slider4">
             <li>
-                <img data-src="images/slider_1920x560_derzhim_tceni-1920x560-1920x560.jpg" alt="большое фото суши"/>
+                <img data-src="images/slider_1920x560_derzhim_tceni-1920x560-1920x560.jpg" class="lazyload" alt="большое фото суши"/>
             </li>
             <li>
-                <img data-src="images/slider_1920x560_roll-1920x560.jpg" alt="большое фото суши"/>
+                <img data-src="images/slider_1920x560_roll-1920x560.jpg" class="lazyload" alt="большое фото суши"/>
             </li>
         </ul>
     </div>
@@ -26,7 +26,7 @@
 <div>
     <div class="h1_ogr">
         <div class="title_h1">
-            <span><img data-src="/images/dote.png" alt="точки"></span><?=$category['title'];?><span><img data-src="/images/dote.png" alt="точки"></span>
+            <span><img data-src="/images/dote.png" class="lazyload" alt="точки"></span><?=$category['title'];?><span><img data-src="/images/dote.png" class="lazyload" alt="точки"></span>
         </div></div>
 <div data-id="<?=$category['id'];?>" class="ogr blockff categ cat">
 
@@ -55,7 +55,7 @@
 
 
                 <div class="image imgdp" data-id="<?=$product['id'];?>">
-                    <img class="thump" data-src="images/<?=$product['img'];?>" alt="Фотография суши">
+                    <img class="thump lazyload" data-src="images/<?=$product['img'];?>" alt="Фотография суши">
                 </div>
                 <div class="title_prod dop_inf" data-id="<?=$product['id'];?>">
                     <?=$product['title'];?></div>
@@ -117,11 +117,11 @@
 
             <div class="dop_block noactivedop " data-id="<?=$product['id'];?>">
                 <div class="dop_img ">
-                    <img class="big_cls close_img" data-id="<?=$product['id'];?>" src="images/<?=$product['img'];?>" alt="Фотография суши">
+                    <img class="big_cls close_img lazyload" data-id="<?=$product['id'];?>" data-src="images/<?=$product['img'];?>" alt="Фотография суши">
 
                 </div>
                 <div class="block_text">
-                    <div class="close" data-id="<?=$product['id'];?>"><img src="images/close2.png" alt="закрыть"></div>
+                    <div class="close" data-id="<?=$product['id'];?>"><img data-src="images/close2.png" alt="закрыть" class="lazyload"></div>
                     <div class="title_i"><?=$product['title'];?></div>
                     <div class="price">
                         <span class="item_price base_price_dop" data-id="<?=$product['id'];?>" data-base="<?=round($product['price']*$curr['value']);?>"> <?=$curr['symbol_left'];?> <?=round($product['price']*$curr['value']);?> <?=$curr['symbol_right'];?></span>

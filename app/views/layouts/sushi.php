@@ -13,7 +13,6 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/jquery.lazyloadxt.spinner.css" type="text/css" media="screen" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
@@ -25,7 +24,7 @@
 <div class="top_block">
     <div class="wraper">
         <div class="logo">
-            <a href="<?=PATH;?>"><img data-src="images/IMG_0420.png" title="Лого" alt="Лого" class="img-responsive"></a>
+            <a href="<?=PATH;?>"><img data-src="images/IMG_0420.png" title="Лого" alt="Лого" class="img-responsive lazyload"></a>
         </div>
         <div class="phone_top">
             <span>Звоните по номеру:</span>
@@ -33,17 +32,17 @@
                 99-999-99</div>
         </div>
         <div class="rabota">
-            <img data-src="/images/prinimaem.png" alt="прием">
+            <img data-src="/images/prinimaem.png" class="lazyload" alt="прием">
             <span>Приём заказов:</span>
             Ежедневно с 10 до 23,
             по ПТ и СБ с 10 до 24</div>
         <div class="call_phone">
-            <a class="foot-tel" href="tel:999999"><img data-src="images/phone-1.png" alt="телефон"></a>
+            <a class="foot-tel" href="tel:999999"><img data-src="images/phone-1.png" class="lazyload" alt="телефон"></a>
         </div>
         <div class="cart btn-group btn-block" id="cart">
             <a href="cart/show" onclick="getCart(); return false;" class="dropdown-toggle" data-toggle="dropdown">
                 <div class="total">
-                    <img data-src="images/cart.png" alt="Картинка корзины" />
+                    <img data-src="images/cart.png" class="lazyload" alt="Картинка корзины" />
                     <?php if (!empty($_SESSION['cart'])):?>
                         <span class="simpleCart_total" style="font-size: 22px;"><?=$_SESSION['cart.currency']['symbol_left'].' '.round($_SESSION['cart.sum']).' '.$_SESSION['cart.currency']['symbol_right']?>
                                         </span>
@@ -119,9 +118,9 @@
                 </div>
                 <div class="footer_col3">
                     <div class="f_social">
-                        <a href="#"><img data-src="images/iconmonstr-vk-5-32.png" alt="vk"></a>
-                        <a href="#"><img data-src="images/iconmonstr-instagram-15-32.png" alt="inst"></a>
-                        <a href="#"><img data-src="images/iconmonstr-facebook-5-32.png" alt="fb"></a>
+                        <a href="#"><img data-src="images/iconmonstr-vk-5-32.png" class="lazyload" alt="vk"></a>
+                        <a href="#"><img data-src="images/iconmonstr-instagram-15-32.png" class="lazyload" alt="inst"></a>
+                        <a href="#"><img data-src="images/iconmonstr-facebook-5-32.png" class="lazyload" alt="fb"></a>
                     </div>
                     <div class="copirait">© 2019 Служба доставки Суши</div>
                 </div>
@@ -218,7 +217,7 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script defer src="fonts/fontawesome//js/all.js"></script>
-<script src="js/jquery.lazyloadxt.js"></script>
+<script src="js/lazysizes.min.js" async=""></script>
     <script src="js/main.js"></script>
         <!--End-slider-script-->
 </body>

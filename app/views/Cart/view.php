@@ -16,7 +16,7 @@
 
                                     <div class="col-xs-12 col-lg-12 blockff cart_block">
                                         <div class="cart_img">
-                                            <img data-src="images/<?= $item['img'] ?>" alt="<?=$item['title'] ?>" title="<?=$item['title'] ?>" class="img-thumbnail">
+                                            <img data-src="images/<?= $item['img'] ?>" alt="<?=$item['title'] ?>" title="<?=$item['title'] ?>" class="img-thumbnail lazyload">
                                         </div>
                                         <div class="cart_inf">
                                             <h5>Наименование</h5>
@@ -59,7 +59,7 @@
                                     <div class="col-lg-2  col-xs-12 dop_cart">
                                         <div>
                                             <div class="img_dop">
-                                                <img data-src="images/<?=$hit['img'];?>">
+                                                <img data-src="images/<?=$hit['img'];?>" class="lazyload">
                                             </div>
                                             <div class="dop_name"><?=$hit['title'];?></div>
                                             <div class="dop_price">

@@ -32,7 +32,7 @@
 
 
                             <div class="image imgdp" data-id="<?=$product['id'];?>">
-                                <img class="thump" data-src="images/<?=$product['img'];?>" alt="Фотография суши">
+                                <img class="thump lazyload" data-src="images/<?=$product['img'];?>" alt="Фотография суши">
                             </div>
                             <div class="title_prod dop_inf" data-id="<?=$product['id'];?>">
                                 <?=$product['title'];?></div>
@@ -94,11 +94,11 @@
 
                         <div class="dop_block noactivedop" data-id="<?=$product['id'];?>">
                             <div class="dop_img ">
-                                <img class="big_cls close_img" data-id="<?=$product['id'];?>" src="images/<?=$product['img'];?>" alt="Фотография суши">
+                                <img class="big_cls close_img lazyload" data-id="<?=$product['id'];?>" data-src="images/<?=$product['img'];?>" alt="Фотография суши">
 
                             </div>
                             <div class="block_text">
-                                <div class="close" data-id="<?=$product['id'];?>"><img src="images/close2.png"></div>
+                                <div class="close" data-id="<?=$product['id'];?>"><img data-src="images/close2.png" class="lazyload"></div>
                                 <div class="title_i"><?=$product['title'];?></div>
                                 <div class="price">
                                     <span class="item_price base_price_dop" data-id="<?=$product['id'];?>" data-base="<?=round($product['price']*$curr['value']);?>"> <?=$curr['symbol_left'];?> <?=round($product['price']*$curr['value']);?> <?=$curr['symbol_right'];?></span>
