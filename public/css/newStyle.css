@@ -1518,8 +1518,8 @@ footer {
     padding: 20px 25px;
 
     left: calc(100% - 155px);
-    left: -webkit-calc(50% - 155px);
-    left: -moz-calc(50% - 155px);
+    left: -webkit-calc(100% - 155px);
+    left: -moz-calc(100% - 155px);
 
     display: none;
 }
@@ -2096,6 +2096,11 @@ footer {
         position: relative;
         left: 25%;
     }
+
+    .buy_btn{
+        position: fixed;
+        left: 60%;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -2180,6 +2185,11 @@ footer {
 
     .order_block_bottom .bottom_order_total div{
         font-size: 24px;
+    }
+
+    #form_buy {
+        position: fixed;
+        top: 100px;
     }
 }
 
