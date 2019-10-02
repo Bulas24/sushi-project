@@ -1,13 +1,13 @@
 <?php
     return [
-    'admin_email' => 'arkad-plus@mail.ru',
-        'shop_name' => 'Магазин доставки суши sushimarket.space',
+    'admin_email' => '',
+        'shop_name' => '',
         'pagination' => 50,
-        'smtp_host' => 'smtp.yandex.ru',
-        'smtp_port' => '465',
-        'smtp_protocol' => 'SSL',
-        'smtp_login' => 'para2017dd@yandex.ru',
-        'smtp_password' => '19901990w',
+        'smtp_host' => '',
+        'smtp_port' => '',
+        'smtp_protocol' => '',
+        'smtp_login' => '',
+        'smtp_password' => '',
         'img_width' => 550,
         'img_height' => 411,
         'img_brand_width' => 350,
@@ -16,7 +16,7 @@
         'gallery_height' => 1000,
         'gallery_brand_width' => 1280,
         'gallery_brand_height' => 850,
-        'ik_key' => 'gng6LlR8h6FUlzic',
-        'ik_co_id' => '5d81bbf71ae1bdd0848b456a',
+        'ik_key' => '',
+        'ik_co_id' => '',
 
     ];
