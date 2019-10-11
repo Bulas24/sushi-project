@@ -70,7 +70,7 @@
 <div class="content">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 session__modal">
                 <?php if (isset($_SESSION['error'])): ?>
                     <div class="alert alert-danger">
                         <?php echo $_SESSION['error']; unset($_SESSION['error']);?>

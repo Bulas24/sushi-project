@@ -118,7 +118,7 @@ class OrderController extends AppController
             }
             \R::trash($order);
             $_SESSION['success'] = 'Заказ удален';
-            redirect();
+            redirect(ADMIN."/order");
         }
 
         public function newAction()

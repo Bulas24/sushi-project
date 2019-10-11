@@ -1437,7 +1437,7 @@ footer {
 #form_order_q {
     position: fixed;
     z-index: 10000;
-    top: 110px;
+    top: 108px;
     padding: 30px 25px;
     background: #fff;
     width: 310px;
@@ -1579,6 +1579,10 @@ footer {
         margin-bottom: 10px;
     }
 
+    .container .session__modal{
+        position: static;
+    }
+
 }
 
 @media screen and (max-width: 990px) {
@@ -1705,6 +1709,12 @@ footer {
         margin: 0 auto;
         display: table;
         padding: 10px;
+    }
+
+    .knopp_wrap {
+        padding: 15px 35px 50px 15px;
+        margin: 0 auto;
+        width: 96%;
     }
 
     .cart_block{
@@ -1878,6 +1888,10 @@ footer {
 
     .product-one-cat .price small{
         width: 41%;
+    }
+
+    #form_order_q {
+        top: 104px;
     }
 }
 
@@ -2175,6 +2189,11 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
+
+    #form_order_q {
+        top: 99px;
+    }
+
     .price .base_price_old {
         margin-left: 5px;
     }
@@ -2194,6 +2213,7 @@ footer {
 }
 
 @media screen and (max-width: 355px) {
+
 
     .price small{
         width: 47%;

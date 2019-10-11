@@ -2904,3 +2904,9 @@
 [2019-09-30 15:33:09] Текст ошибки: 
         Class 'app\models\Breadcrumbs' not found | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\app\controllers\CategoryController.php | Строка ошибки : 30
 ====================
+[2019-10-02 06:20:27] Текст ошибки: 
+        Страница не найдена | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 46
+====================
+[2019-10-11 20:27:30] Текст ошибки: 
+        Страница не найдена | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 46
+====================
