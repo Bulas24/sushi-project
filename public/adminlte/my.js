@@ -63,6 +63,37 @@ $('.del-item-img').on('click', function () {
     });
 });
 
+$('.del-banner-img').on('click', function () {
+    var res = confirm('Подтвердите действие');
+    if (!res) return res;
+    var $this = $(this),
+        id = $this.data('id'),
+        src = $this.data('src');
+    $.ajax({
+        url: adminpath + '/banner/delete-img',
+        data: {id: id, src: src},
+        type: 'POST',
+        beforeSend: function () {
+            $this.closest('.file-upload').find('.overlay').css({'display':'block'});
+        },
+        success: function (res) {
+            setTimeout(function(){
+                $this.closest('.file-upload').find('.overlay').css({'display':'none'});
+                if (res == 1){
+                    $this.fadeOut();
+                }
+            }, 500);
+        },
+        error: function () {
+            setTimeout(function(){
+                $this.closest('.file-upload').find('.overlay').css({'display':'none'});
+                alert('Ошибка');
+            }, 500);
+        }
+    });
+});
+
+
 // $('.del-item-brand').on('click', function () {
 //     var res = confirm('Подтвердите действие');
 //     if (!res) return res;

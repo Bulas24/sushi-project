@@ -191,6 +191,17 @@
                         <li><a href="<?= ADMIN ?>/pickup/add">Добавить адрес самовывоза</a></li>
                     </ul>
                 </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-photo"></i> <span>Баннеры</span>
+                        <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="<?= ADMIN ?>/banner">Список всех баннеров</a></li>
+                        <li><a href="<?= ADMIN ?>/banner/add">Добавить баннер</a></li>
+                    </ul>
+                </li>
                 <li><a href="<?= ADMIN ?>/cache"><i class="fa fa-database"></i> <span>Кэширование</span></a></li>
                 <li class="treeview">
                     <a href="#"><i class="fa fa-usd"></i> <span>Валюты</span>

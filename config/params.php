@@ -16,6 +16,8 @@
         'gallery_height' => 1000,
         'gallery_brand_width' => 1280,
         'gallery_brand_height' => 850,
+        'banner_width' => 1920,
+        'banner_height' => 560,
         'ik_key' => '',
         'ik_co_id' => '',
 

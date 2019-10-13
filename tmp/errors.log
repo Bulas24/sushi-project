@@ -2910,3 +2910,15 @@
 [2019-10-11 20:27:30] Текст ошибки: 
         Страница не найдена | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 46
 ====================
+[2019-10-13 19:33:14] Текст ошибки: 
+        Страница не найдена | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 46
+====================
+[2019-10-13 19:43:55] Текст ошибки: 
+        Не найден вид C:\OpenServer\OSPanel\domains\sushi.loc/app/views/admin/Banner/index.php | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\base\View.php | Строка ошибки : 43
+====================
+[2019-10-13 20:32:26] Текст ошибки: 
+        Не найден вид C:\OpenServer\OSPanel\domains\sushi.loc/app/views/admin/Product/delete-img.php | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\base\View.php | Строка ошибки : 43
+====================
+[2019-10-13 20:32:29] Текст ошибки: 
+        Не найден вид C:\OpenServer\OSPanel\domains\sushi.loc/app/views/admin/Product/delete-img.php | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\base\View.php | Строка ошибки : 43
+====================

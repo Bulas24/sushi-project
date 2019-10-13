@@ -2,12 +2,11 @@
 <div class="bnr" id="home">
     <div  id="top" class="callbacks_container noslidre">
         <ul class="rslides" id="slider4">
+            <?php foreach ($banners as $banner):?>
             <li>
-                <img data-src="images/slider_1920x560_derzhim_tceni-1920x560-1920x560.jpg" class="lazyload" alt="большое фото суши"/>
+                <img data-src="images/<?=$banner['img'];?>" class="lazyload" alt="<?=$banner['title'];?>!"/>
             </li>
-            <li>
-                <img data-src="images/slider_1920x560_roll-1920x560.jpg" class="lazyload" alt="большое фото суши"/>
-            </li>
+            <?php endforeach; ?>
         </ul>
     </div>
     <div class="clearfix"> </div>
