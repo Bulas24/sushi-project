@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\models\admin;
+namespace app\models\manager;
 
 
 class User extends \app\models\User
@@ -26,8 +26,8 @@ class User extends \app\models\User
                 ['name'],
                 ['number'],
                 ['email'],
-                ['role'],
                 ['login'],
+                ['role'],
             ],
 
             'email' => [
@@ -61,23 +61,4 @@ class User extends \app\models\User
             }
             return true;
         }
-
-    public function checkUniqueLog()
-    {
-        $user = \R::findOne('user', 'login = ? OR email = ? OR number = ?',
-            [$this->attributes['login'], $this->attributes['email'], $this->attributes['number']]);
-        if ($user){
-            if ($user->login == $this->attributes['login']){
-                $this->errors['unique'][] = 'Этот логин уже занят';
-            }
-            if ($user->email == $this->attributes['email']){
-                $this->errors['unique'][] = 'Этот email уже занят';
-            }
-            if ($user->number == $this->attributes['number']){
-                $this->errors['unique'][] = 'Этот телефон уже занят';
-            }
-            return false;
-        }
-        return true;
-    }
 }

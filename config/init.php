@@ -19,6 +19,7 @@ $app_path = str_replace('/public/', '', $app_path);
 
 define("PATH", $app_path);
 define("ADMIN", PATH . '/admin');
+define("MANAGER", PATH . '/manager');
 
 require_once ROOT.'/vendor/autoload.php';
 

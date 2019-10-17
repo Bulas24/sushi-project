@@ -57,14 +57,17 @@ class User extends AppModel
             return true;
         }
 
-        public function login($isAdmin = false)
+        public function login($isAdmin = false,$isManager = false)
         {
             $login = !empty(trim($_POST['login'])) ? trim($_POST['login']) : null;
             $password = !empty(trim($_POST['password'])) ? trim($_POST['password']) : null;
             if ($login && $password){
                 if ($isAdmin){
                     $user = \R::findOne('user',"login = ? AND role = 'admin'", [$login]);
-                }else {
+                }elseif ($isManager){
+                    $user = \R::findOne('user',"login = ? AND role = 'manager'", [$login]);
+                }
+                else {
                     $user = \R::findOne('user',"login = ?", [$login]);
                 }
                 if ($user){
@@ -87,6 +90,11 @@ class User extends AppModel
         public static function isAdmin()
         {
             return (isset($_SESSION['user']) && $_SESSION['user']['role'] == 'admin');
+        }
+
+        public static function isManager()
+        {
+            return (isset($_SESSION['user']) && $_SESSION['user']['role'] == 'manager');
         }
 
 }

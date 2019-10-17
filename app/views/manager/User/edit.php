@@ -4,8 +4,8 @@
         Редактирование профиля пользователя <?=$user->name;?>
     </h1>
     <ol class="breadcrumb">
-        <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
-        <li><a href="<?=ADMIN;?>/user">Список пользователей</a></li>
+        <li><a href="<?=MANAGER;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
+        <li><a href="<?=MANAGER;?>/user">Список пользователей</a></li>
         <li class="active">Редактирование профиля</li>
     </ol>
 </section>
@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="box">
-                <form action="<?=ADMIN;?>/user/edit" method="post" data-toggle="validator">
+                <form action="<?=MANAGER;?>/user/edit" method="post" data-toggle="validator">
                     <div class="box-body">
                         <div class="form-group has-feedback">
                             <label for="login">Логин</label>
@@ -67,8 +67,6 @@
                         <div class="form-group">
                             <label>Роль</label>
                             <select name="role" id="role" class="form-control">
-                                <option value="user"<?php if($user->role == 'user') echo ' selected'; ?>>Пользователь</option>
-                                <option value="admin"<?php if($user->role == 'admin') echo ' selected'; ?>>Администратор</option>
                                 <option value="manager"<?php if($user->role == 'manager') echo ' selected'; ?>>Менеджер</option>
                             </select>
                         </div>
@@ -78,67 +76,6 @@
                         <button type="submit" class="btn btn-primary">Сохранить</button>
                     </div>
                 </form>
-            </div>
-            <h3>Заказы пользователя:</h3>
-            <div class="box">
-                <div class="box-body">
-            <?php if ($orders): ?>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-hover">
-                            <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Статус</th>
-                                <th>Сумма</th>
-                                <th>Дата создания</th>
-                                <th>Дата изменения</th>
-                                <th>Действия</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <?php foreach ($orders as $order): ?>
-                                <?php
-                                        if ($order['status'] == '2' || $order['status'] == '3'){
-                                            $class = 'success';
-                                        }else{
-                                            $class = '';
-                                        }
-                                ;?>
-                                <tr class="<?=$class;?>">
-                                    <td><?=$order['id'];?></td>
-                                    <td>
-                                        <?php
-                                        if($order['status'] == '2'){
-                                            echo 'Завершен';
-                                        }elseif($order['status'] == '3'){
-                                            echo 'Оплачен';
-                                        }elseif($order['status'] == '1'){
-                                            echo 'В работе';
-                                        }
-                                        else{
-                                            echo 'Новый';
-                                        }
-                                        ?>
-                                    </td>
-                                    <td><?=$order['sum'];?> <?=$order['currency'];?></td>
-                                    <td><?=$order['date'];?></td>
-                                    <td><?=$order['update_at'];?></td>
-                                    <td><a href="<?=ADMIN;?>/order/view?id=<?=$order['id'];?>"><i class="fa fa-fw fa-eye"></i></a>
-                                </tr>
-                            <?php endforeach;?>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="text-center">
-                        <p>(<?=count($orders);?> заказа(-ов) из <?=$count;?>)</p>
-                        <?php if ($pagination->countPages > 1):?>
-                            <?=$pagination;?>
-                        <?php endif;?>
-                    </div>
-            <?php else: ?>
-            <p class="text-danger">Пользователь ничего не заказывал</p>
-            <?php endif; ?>
-                </div>
             </div>
         </div>
     </div>

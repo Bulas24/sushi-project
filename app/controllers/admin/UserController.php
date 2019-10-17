@@ -72,7 +72,7 @@ class UserController extends AppController
     public function addAction()
     {
         if (!empty($_POST)){
-            $user = new User();
+            $user = new \app\models\admin\User();
             if (empty($_POST['login'])){
                 unset($_POST['login']);
             }
@@ -81,7 +81,7 @@ class UserController extends AppController
             }
             $data = $_POST;
             $user->load($data);
-            if (!$user->validate($data) || !$user->checkUnique()){
+            if (!$user->validate($data) || !$user->checkUniqueLog()){
                 $user->getErrors();
                 $_SESSION['form_data'] = $data;
             }else{

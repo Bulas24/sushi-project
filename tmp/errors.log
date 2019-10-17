@@ -2922,3 +2922,33 @@
 [2019-10-13 20:32:29] Текст ошибки: 
         Не найден вид C:\OpenServer\OSPanel\domains\sushi.loc/app/views/admin/Product/delete-img.php | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\base\View.php | Строка ошибки : 43
 ====================
+[2019-10-15 08:51:23] Текст ошибки: 
+        Контроллер app\controllers\ManagerController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
+====================
+[2019-10-15 08:51:23] Текст ошибки: 
+        Страница не найдена | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 46
+====================
+[2019-10-15 08:52:48] Текст ошибки: 
+        Контроллер app\controllers\manager\MainController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
+====================
+[2019-10-15 08:54:33] Текст ошибки: 
+        Контроллер app\controllers\manager\MainController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
+====================
+[2019-10-15 08:55:55] Текст ошибки: 
+        Контроллер app\controllers\manager\MainController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
+====================
+[2019-10-15 08:56:59] Текст ошибки: 
+        Контроллер app\controllers\manager\MainController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
+====================
+[2019-10-15 09:08:15] Текст ошибки: 
+        Контроллер app\controllers\manager\UserController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
+====================
+[2019-10-15 09:11:57] Текст ошибки: 
+        Не найден вид C:\OpenServer\OSPanel\domains\sushi.loc/app/views/manager/User/login-manager.php | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\base\View.php | Строка ошибки : 43
+====================
+[2019-10-15 10:43:41] Текст ошибки: 
+        SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'user2' for key 'login' | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка ошибки : 194
+====================
+[2019-10-15 11:30:51] Текст ошибки: 
+        Контроллер app\controllers\manager\OrderController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
+====================

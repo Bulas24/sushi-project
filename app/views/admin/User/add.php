@@ -72,6 +72,7 @@
                             <select class="form-control" name="role">
                                 <option value="user">Пользователь</option>
                                 <option value="admin">Администратор</option>
+                                <option value="manager">Менеджер</option>
                             </select>
                         </div>
                     </div>

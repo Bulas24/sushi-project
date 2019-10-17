@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Окт 13 2019 г., 20:46
+-- Время создания: Окт 16 2019 г., 07:43
 -- Версия сервера: 5.5.62
 -- Версия PHP: 7.1.22
 
@@ -304,6 +304,16 @@ CREATE TABLE `order` (
   `sum` float NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Дамп данных таблицы `order`
+--
+
+INSERT INTO `order` (`id`, `user_id`, `name`, `number`, `email`, `how_delivery`, `pickup_address_id`, `time_add`, `time`, `pay`, `delivery`, `change_money`, `status`, `date`, `update_at`, `currency`, `note`, `note_man`, `address_street`, `address_home`, `address_porch`, `address_floor`, `address_apartment`, `sum`) VALUES
+(1, 29, 'Второй суши', '89135568555', 'he14@mail.ru', '1', 7, '0', '', '1', '1', '', '1', '2019-10-15 08:32:04', '2019-10-15 05:03:32', 'RUB', NULL, 'fsf', '', '', '', '', '', 233),
+(2, 33, 'Второй суши', '895555568444', 'para2017dd@yandex.ru', '1', 6, '0', '', '1', '0', '', '2', '2019-10-15 08:33:31', '2019-10-15 05:03:43', 'RUB', '', '', '', '', '', '', '', 183),
+(3, 29, 'Второй суши', '666666666666', 'he14@mail.ru', '0', 7, '1', '15-00', '1', '1', '2000', '0', '2019-10-15 09:00:36', NULL, 'RUB', NULL, 'Больше васаби', 'Ленина', '15', '', '', '22', 50),
+(4, 34, 'Коля', '111111111111', 'arkad-p111lus@mail.ru', '0', NULL, '0', NULL, '1', NULL, NULL, '0', '2019-10-16 04:31:52', NULL, 'RUB', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 233);
+
 -- --------------------------------------------------------
 
 --
@@ -318,6 +328,19 @@ CREATE TABLE `order_product` (
   `title` varchar(255) NOT NULL,
   `price` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `order_product`
+--
+
+INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `price`) VALUES
+(1, 1, 42, 1, 'Акция 2', 100),
+(2, 1, 43, 1, 'Акция 3', 133),
+(3, 2, 34, 1, 'Акция 1', 50),
+(4, 2, 43, 1, 'Акция 3', 133),
+(5, 3, 34, 1, 'Акция 1', 50),
+(6, 4, 42, 1, 'Акция 2', 100),
+(7, 4, 43, 1, 'Акция 3', 133);
 
 -- --------------------------------------------------------
 
@@ -438,7 +461,7 @@ CREATE TABLE `user` (
   `address_porch` varchar(255) DEFAULT NULL,
   `address_floor` varchar(255) DEFAULT NULL,
   `address_apartment` varchar(255) DEFAULT NULL,
-  `role` enum('user','admin') NOT NULL DEFAULT 'user',
+  `role` enum('user','admin','manager') NOT NULL DEFAULT 'user',
   `number` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -447,7 +470,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `address_street`, `address_home`, `address_porch`, `address_floor`, `address_apartment`, `role`, `number`) VALUES
-(29, 'user1', '$2y$10$ocF4eJXt9ReYCcjkC4RC9OwqFGfUWhLSysxid6yL7V/wGYxw3qpJq', 'he14@mail.ru', 'Евгений', 'Крупской', '10', '3', '3', '24', 'admin', '89135568444');
+(29, 'user1', '$2y$10$ocF4eJXt9ReYCcjkC4RC9OwqFGfUWhLSysxid6yL7V/wGYxw3qpJq', 'he14@mail.ru', 'Евгений', 'Крупской', '10', '3', '3', '24', 'admin', '89135568444'),
+(30, 'user2', '$2y$10$hC/.eyfWwXnclhYcYqmDOOTRhDsDp167HJ84Qpo1fm4MvdErU.Kqa', '11arkad-plus@mail.ru', 'Коля', 'a', 'a', '', '', '', 'manager', '666611161166'),
+(32, 'user3', '$2y$10$gkcFkuZ2C4lELYDk8NzFBObFtc.Gda70gZSAbR9zl2jW/QQc7PnfO', 'arka11d-plus@mail.ru', 'Коля', '', '', '', '', '', 'manager', '891355228444'),
+(33, NULL, NULL, 'para2017dd@yandex.ru', 'Второй суши', '', '', '', '', '', 'user', '895555568444'),
+(34, NULL, NULL, 'arkad-p111lus@mail.ru', 'Коля', '', '', '', '', '', 'user', '111111111111');
 
 --
 -- Индексы сохранённых таблиц
@@ -629,13 +656,13 @@ ALTER TABLE `modification`
 -- AUTO_INCREMENT для таблицы `order`
 --
 ALTER TABLE `order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=140;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT для таблицы `order_product`
 --
 ALTER TABLE `order_product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=294;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT для таблицы `pickup_address`
@@ -659,7 +686,7 @@ ALTER TABLE `prod_content`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=96;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
