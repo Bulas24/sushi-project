@@ -7,13 +7,14 @@
     ?>
             <h1><?=$category->title;?></h1>
 
+
+    <?php if ($category->filter_on) :?>
     <div class="col-sm-12">
         <div class="w_sidebar">
             <?php new \app\widgets\filter\Filter();?>
         </div>
     </div>
-
-
+    <?php endif;?>
             <div class="ogr blockff categ cat">
                 <?php if (!empty($products)):?>
                 <div class="product-one-cat">

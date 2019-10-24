@@ -1704,7 +1704,6 @@ footer {
 
     .blockff {
         float: none;
-        background: #fff;
         box-sizing: border-box;
         width: 96%;
         margin: 0 auto;
@@ -2185,6 +2184,10 @@ footer {
 
     .cart_block .pr_total{
         width: 11%;
+    }
+
+    .dop_img img {
+        max-width: 80%;
     }
 
 }

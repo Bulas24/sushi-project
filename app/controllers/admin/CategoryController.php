@@ -77,7 +77,7 @@ class CategoryController extends AppController
                     \R::store($category);
                     $_SESSION['success'] = 'Изменения сохранены';
                 }
-                redirect();
+                redirect(ADMIN.'/category');
             }
             $id = $this->getRequestID();
             $category = \R::load('category' , $id);

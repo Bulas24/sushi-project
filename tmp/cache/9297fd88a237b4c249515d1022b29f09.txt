@@ -1,4 +1,4 @@
-a:2:{s:4:"data";s:563:"<li>
+a:2:{s:4:"data";s:732:"<li>
     <a href="category/akciya-rolly-0r">Акция!Роллы 0р.</a>
     </li>
 <li>
@@ -22,4 +22,13 @@ a:2:{s:4:"data";s:563:"<li>
 <li>
     <a href="category/dobavki">Добавки</a>
     </li>
-";s:8:"and_time";i:1571203746;}
+<li>
+    <a href="category/test">test</a>
+    </li>
+<li>
+    <a href="category/test2">test2</a>
+    </li>
+<li>
+    <a href="category/test3">test3</a>
+    </li>
+";s:8:"and_time";i:1571904428;}

@@ -46,6 +46,11 @@
                             <label for="description">Описание</label>
                             <input type="text" name="description" class="form-control" id="description" value="<?=h($category->description);?>" placeholder="Описание">
                         </div>
+                        <div class="form-group">
+                            <h5 for="">Будут ли фильтры у данной позиции?</h5>
+                            <input type="radio" name="filter_on" value="0" id="filt_no" <?php if (!$category->filter_on):;?> checked <?php endif;?>><label for="filt_no">Нет</label>
+                            <input type="radio" name="filter_on" value="1" id="filt_yes" <?php if ($category->filter_on):;?> checked <?php endif;?>><label for="filt_yes">Да</label>
+                        </div>
                     </div>
                     <div class="box-footer">
                         <input type="hidden" name="id" value="<?=$category->id;?>">

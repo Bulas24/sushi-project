@@ -15,11 +15,13 @@ class Category extends AppModel
             'keywords' => '',
             'description' => '',
             'alias' => '',
+            'filter_on' => '0',
         ];
 
         public $rules = [
             'required' => [
                 ['title'],
+                ['filter_on'],
             ]
         ];
 

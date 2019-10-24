@@ -2952,3 +2952,6 @@
 [2019-10-15 11:30:51] Текст ошибки: 
         Контроллер app\controllers\manager\OrderController не найден | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 43
 ====================
+[2019-10-24 09:50:55] Текст ошибки: 
+        Страница не найдена | Файл с ошибкой: C:\OpenServer\OSPanel\domains\sushi.loc\vendor\ishop\core\Router.php | Строка ошибки : 46
+====================
